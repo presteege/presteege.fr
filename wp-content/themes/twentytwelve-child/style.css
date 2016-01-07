@@ -1,0 +1,34 @@
+/*
+Theme Name:     Twenty Twelve Child
+Theme URI:      http://example.com/
+Description:    Thème enfant pour le thème Twenty Twelve
+Author:         Votre nom ici
+Author URI:     http://example.com/about/
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+@font-face
+{
+    font-family: 'bellevue';
+    src: url('fonts/bellevue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: bellevue;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: bellevue;
+}
+
+.style-title
+{
+    font-size: 35px;
+}
